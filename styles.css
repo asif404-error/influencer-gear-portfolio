@@ -1,17 +1,55 @@
 /* Thin 100, ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, Black 900,*/
 
+/* All-color-code-used-in-this-landing-page:-
+
+common font color: #3A3A3A;
+card-product-title-color: #rgba(24, 25, 31, 1); (Text/Gray 900)
+card-product-description-color: #rgba(120, 120, 133, 1); (Gray/50)
+featured-product-title-color: #0A0826;
+featured-product-description-color: #6C6C6C;
+copyright-description-color: #rgba(217, 219, 225, 1); (Text/Gray 300)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* nav bar related styles */
 .nav-bar{
-    background-color: burlywood;
-    font-size: large;
-    font-weight: 500;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    /* margin-top: 87px;
+    margin-left: 120px;
+    margin-right: 1077px; */
 }
 
 .text-logo{
-
+    font-weight: bold;
+    color:#3A3A3A;
 }
 
 .nav-links{
+    display:flex;
+    gap:34px;
+    align-items:center;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#3A3A3A;
+}
 
+.nav-links img{
+    width:25px;
+    height:25px;
 }
