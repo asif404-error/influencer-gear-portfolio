@@ -133,3 +133,22 @@ btn-bg-color: #E02C6D;
 .brand-logos img:hover{
     filter: grayscale(0); /* I also use this hover-effect for my own interest. It's totally optional. I learned and I used it. */
 }
+
+/* popular collection related styles */
+.products-section{
+
+}
+
+.section-title{
+
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    gap: 30px;
+}
+
+.product-card{
+
+}
