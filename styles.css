@@ -115,3 +115,21 @@ btn-bg-color: #E02C6D;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* brand-logos related styles */
+.brand-logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.brand-logos img{
+    width: 110px;
+    /* Adding grayscale() is optional. I added it for my own interest. Learned and used it. */
+    filter: grayscale(100%);
+}
+
+.brand-logos img:hover{
+    filter: grayscale(0); /* I also use this hover-effect for my own interest. It's totally optional. I learned and I used it. */
+}
