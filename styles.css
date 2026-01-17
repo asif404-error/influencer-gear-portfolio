@@ -3,11 +3,13 @@
 /* All-color-code-used-in-this-landing-page:-
 
 common font color: #3A3A3A;
+bg-img-circle-color: rgba(255, 255, 255, 1); (Brand/Purple 100)
 card-product-title-color: #rgba(24, 25, 31, 1); (Text/Gray 900)
 card-product-description-color: #rgba(120, 120, 133, 1); (Gray/50)
 featured-product-title-color: #0A0826;
 featured-product-description-color: #6C6C6C;
 copyright-description-color: #rgba(217, 219, 225, 1); (Text/Gray 300)
+btn-bg-color: #E02C6D;
 
 */
 
@@ -20,16 +22,13 @@ copyright-description-color: #rgba(217, 219, 225, 1); (Text/Gray 300)
   font-style: normal;
 }
 
-/* nav bar related styles */
+/* nav-bar related styles */
 .nav-bar{
     display: flex;
     justify-content: space-between ;
     align-items: center;
     padding: 20px 50px;
     background-color: #FFFFFF;
-    /* margin-top: 87px;
-    margin-left: 120px;
-    margin-right: 1077px; */
 }
 
 .text-logo{
@@ -47,9 +46,72 @@ copyright-description-color: #rgba(217, 219, 225, 1); (Text/Gray 300)
     text-decoration: none;
     font-weight: 500;
     color:#3A3A3A;
+    cursor: pointer;
 }
 
 .nav-links img{
     width:25px;
     height:25px;
+}
+
+/* hero-section related styles */
+.hero-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 100px;
+    /* padding: 80px; */
+    height:500px;
+    /* min-height:600px; */
+    gap:133px;
+}
+
+.text-content{
+    max-width: 450px;
+    /* max-width: 500px; */
+}
+.text-content h1{
+    font-weight: bold;
+    font-size: 3.25rem;
+    color: #3A3A3A;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.text-content p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #3A3A3A;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.preebook-btn{
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.preebook-btn img{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.images{
+    background-image: url(./images/circle-background-image.svg);
+    width: 475px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 475px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
